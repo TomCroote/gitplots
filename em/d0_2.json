@@ -1,0 +1,82 @@
+{
+    "analysis_modules": [
+        "BinErrorsOfEmptyBins", 
+        "CorrectNegativeBinContents", 
+        "NormalizeToUnity"
+    ], 
+    "category": null, 
+    "colors": [
+        "zmt", 
+        "zet", 
+        "zem"
+    ], 
+    "comment": "/.automount/home/home__home2/institut_3b/croote/Documents/analysis/CMSSW_7_4_7/bin/slc6_amd64_gcc491/makePlots_controlPlots.py --shapes -c mt et em mm -s zmt zet zem -x m_vis d0_1 d0_2 dZ_1 dZ_2 IP_1x IP_1y IP_1z IP_2x IP_2y IP_2z -i /net/scratch_cms3b/croote/artus/2017-08-31_14-10_CrooteLFV_31_08_2017_14_07/merged/ -n 4", 
+    "directories": [
+        "/net/scratch_cms3b/croote/artus/2017-08-31_14-10_CrooteLFV_31_08_2017_14_07/merged/"
+    ], 
+    "files": [
+        "LFV_croote_RunIISummer16MiniAODv2stk1_13TeV_USER_madgraph-pythia8/*.root", 
+        "LFV_croote_RunIISummer16MiniAODv2stk1_13TeV_USER_madgraph-pythia8/*.root", 
+        "LFV_croote_RunIISummer16MiniAODv2stk1_13TeV_USER_madgraph-pythia8/*.root"
+    ], 
+    "folders": [
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple"
+    ], 
+    "hide_progressbar": true, 
+    "labels": [
+        "zmt", 
+        "zet", 
+        "zem"
+    ], 
+    "legend": [
+        0.55, 
+        0.65, 
+        0.9, 
+        0.88
+    ], 
+    "legend_markers": "L", 
+    "line_widths": 3, 
+    "markers": "LINE", 
+    "nicks": [
+        "zmt", 
+        "zet", 
+        "zem"
+    ], 
+    "nicks_blacklist": [
+        "noplot"
+    ], 
+    "nicks_correct_negative_bins": [
+        "zmt", 
+        "zet", 
+        "zem"
+    ], 
+    "nicks_empty_bins": [
+        "zmt", 
+        "zet", 
+        "zem"
+    ], 
+    "output_dir": "/.automount/home/home__home2/institut_3b/croote/Documents/analysis/CMSSW_7_4_7/src/plots/control_plots/em/", 
+    "scale_factors": [
+        35870.0, 
+        35870.0, 
+        35870.0
+    ], 
+    "title": "channel_em", 
+    "weights": [
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(0.979)*(lheZtoMT > 0.0)*1/1000", 
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(0.979)*(lheZtoET > 0.0)*1/1000", 
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(0.979)*(lheZtoEM > 0.0)*1/1000"
+    ], 
+    "x_expressions": [
+        "d0_2", 
+        "d0_2", 
+        "d0_2"
+    ], 
+    "x_label": "em_d0_2", 
+    "y_label": "arb. u.", 
+    "y_lims": [
+        0.0
+    ]
+}
