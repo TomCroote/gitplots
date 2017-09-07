@@ -1,0 +1,129 @@
+{
+    "analysis_modules": [
+        "BinErrorsOfEmptyBins", 
+        "CorrectNegativeBinContents", 
+        "NormalizeToUnity"
+    ], 
+    "category": null, 
+    "colors": [
+        "1", 
+        "2", 
+        "3", 
+        "4", 
+        "5"
+    ], 
+    "comment": "/.automount/home/home__home2/institut_3b/croote/Documents/analysis/CMSSW_7_4_7/bin/slc6_amd64_gcc491/makePlots_controlPlots.py --shapes -c mt et em mm -s zmt zet zem zll ztt -x IP_1x IP_1y IP_1z IP_2x IP_2y IP_2z -i /net/scratch_cms3b/croote/artus/2017-08-09_18-34_DYJetsToLLCroote2017-control/merged/ -n 4 -a --colors 1 2 3 4 5 --x-bins 25,-0.05,0.05", 
+    "directories": [
+        "/net/scratch_cms3b/croote/artus/2017-08-09_18-34_DYJetsToLLCroote2017-control/merged/"
+    ], 
+    "files": [
+        "LFV_croote_RunIISummer16MiniAODv2stk1_13TeV_USER_madgraph-pythia8/*.root", 
+        "LFV_croote_RunIISummer16MiniAODv2stk1_13TeV_USER_madgraph-pythia8/*.root", 
+        "LFV_croote_RunIISummer16MiniAODv2stk1_13TeV_USER_madgraph-pythia8/*.root", 
+        "DY1JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DY3JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DY4JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DY2JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM10to50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext1/*.root DYJetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext2/*.root", 
+        "EWKZ2JetsZToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root EWKZ2JetsZToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext2/*.root EWKZ2JetsZToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext1/*.root", 
+        "EWKZ2Jets_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root EWKZ2Jets_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext1/*.root EWKZ2Jets_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext2/*.root", 
+        "DY1JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DY3JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DY4JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DY2JetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM10to50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root DYJetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext1/*.root DYJetsToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext2/*.root", 
+        "EWKZ2JetsZToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root EWKZ2JetsZToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext2/*.root EWKZ2JetsZToLLM50_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext1/*.root", 
+        "EWKZ2Jets_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8/*.root EWKZ2Jets_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext1/*.root EWKZ2Jets_RunIISummer16MiniAODv2_PUMoriond17_13TeV_MINIAOD_madgraph-pythia8_ext2/*.root"
+    ], 
+    "folders": [
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple", 
+        "em_nominal/ntuple"
+    ], 
+    "hide_progressbar": true, 
+    "labels": [
+        "zmt", 
+        "zet", 
+        "zem", 
+        "zll", 
+        "ztt"
+    ], 
+    "legend": [
+        0.55, 
+        0.65, 
+        0.9, 
+        0.88
+    ], 
+    "legend_markers": "L", 
+    "line_widths": 3, 
+    "markers": "LINE", 
+    "nicks": [
+        "zmt", 
+        "zet", 
+        "zem", 
+        "zll", 
+        "zll", 
+        "zll", 
+        "ztt", 
+        "ztt", 
+        "ztt"
+    ], 
+    "nicks_blacklist": [
+        "noplot"
+    ], 
+    "nicks_correct_negative_bins": [
+        "zmt", 
+        "zet", 
+        "zem", 
+        "zll", 
+        "ztt"
+    ], 
+    "nicks_empty_bins": [
+        "zmt", 
+        "zet", 
+        "zem", 
+        "zll", 
+        "ztt"
+    ], 
+    "output_dir": "/.automount/home/home__home2/institut_3b/croote/Documents/analysis/CMSSW_7_4_7/src/plots/control_plots/em/", 
+    "scale_factors": [
+        35870.0, 
+        35870.0, 
+        35870.0, 
+        35870.0, 
+        35870.0, 
+        35870.0, 
+        35870.0, 
+        35870.0, 
+        35870.0
+    ], 
+    "title": "channel_em", 
+    "weights": [
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(0.979)*(lheZtoMT > 0.0)*1/1000", 
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(0.979)*(lheZtoET > 0.0)*1/1000", 
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(0.979)*(lheZtoEM > 0.0)*1/1000", 
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(((genbosonmass >= 50.0 && (npartons == 0 || npartons >= 5))*3.95423374e-5) + ((genbosonmass >= 50.0 && npartons == 1)*1.27486147e-5) + ((genbosonmass >= 50.0 && npartons == 2)*1.3012785e-5) + ((genbosonmass >= 50.0 && npartons == 3)*1.33802133e-5) + ((genbosonmass >= 50.0 && npartons == 4)*1.09698723e-5)+((genbosonmass < 50.0)*numberGeneratedEventsWeight*crossSectionPerEventWeight))/(numberGeneratedEventsWeight*crossSectionPerEventWeight*sampleStitchingWeight)*(gen_match_1 < 3 || gen_match_2 < 4)*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*zPtReweightWeight*(1.0)*(1.0)*(0.979)", 
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(gen_match_1 < 3 || gen_match_2 < 4)*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(1.0)*(3.989190065346e-6)/(numberGeneratedEventsWeight*crossSectionPerEventWeight)*(1.0)*(0.979)", 
+        "(1.0)*((((1.0)*(1.0))))*eventWeight*(gen_match_1 < 3 || gen_match_2 < 4)*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(1.0)*(3.35561920393e-6)/(numberGeneratedEventsWeight*crossSectionPerEventWeight)*(1.0)*(0.979)", 
+        "(gen_match_1 > 2 && gen_match_2 > 3)*(((((1.0)*(1.0)))))*(eventWeight)*((((genbosonmass >= 150.0 && (npartons == 0 || npartons >= 5))*3.95423374e-5) + ((genbosonmass >= 150.0 && npartons == 1)*1.27486147e-5) + ((genbosonmass >= 150.0 && npartons == 2)*1.3012785e-5) + ((genbosonmass >= 150.0 && npartons == 3)*1.33802133e-5) + ((genbosonmass >= 150.0 && npartons == 4)*1.09698723e-5)+((genbosonmass >= 50.0 && genbosonmass < 150.0 && (npartons == 0 || npartons >= 5))*3.95423374e-5) + ((genbosonmass >= 50.0 && genbosonmass < 150.0 && npartons == 1)*1.27486147e-5) + ((genbosonmass >= 50.0 && genbosonmass < 150.0 && npartons == 2)*1.3012785e-5) + ((genbosonmass >= 50.0 && genbosonmass < 150.0 && npartons == 3)*1.33802133e-5) + ((genbosonmass >= 50.0 && genbosonmass < 150.0 && npartons == 4)*1.09698723e-5)+((genbosonmass < 50.0)*numberGeneratedEventsWeight*crossSectionPerEventWeight))/(numberGeneratedEventsWeight*crossSectionPerEventWeight*sampleStitchingWeight))*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*zPtReweightWeight*(1.0)*(1.0)*(0.979)", 
+        "(gen_match_1 > 2 && gen_match_2 > 3)*(((((1.0)*(1.0)))))*(eventWeight)*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(1.0)*(3.989190065346e-6)/(numberGeneratedEventsWeight*crossSectionPerEventWeight)*(1.0)*(0.979)", 
+        "(gen_match_1 > 2 && gen_match_2 > 3)*(((((1.0)*(1.0)))))*(eventWeight)*(extraelec_veto < 0.5)*(extramuon_veto < 0.5)*(pZetaMissVis > -35.0)*(iso_2 < 0.2)*(iso_1 < 0.15)*((q_1*q_2)<0.0)*(1.0)*(3.35561920393e-6)/(numberGeneratedEventsWeight*crossSectionPerEventWeight)*(1.0)*(0.979)"
+    ], 
+    "x_bins": [
+        "25,-0.05,0.05"
+    ], 
+    "x_expressions": [
+        "IP_1x", 
+        "IP_1x", 
+        "IP_1x", 
+        "IP_1x", 
+        "IP_1x", 
+        "IP_1x", 
+        "IP_1x", 
+        "IP_1x", 
+        "IP_1x"
+    ], 
+    "x_label": "em_IP_1x", 
+    "y_label": "arb. u.", 
+    "y_lims": [
+        0.0
+    ]
+}
